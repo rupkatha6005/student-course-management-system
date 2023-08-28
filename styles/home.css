@@ -1,0 +1,29 @@
+.body-class{
+    background-color: rgb(247, 245, 244);
+}
+
+.page-box{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 18px;
+    align-items: center;    
+}
+
+
+.page-button{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 320px;
+    height: 70px;
+    border-style: groove;
+    border-width: 4px;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;                    font-weight: 600;
+    transition: box-shadow 0.15s;
+}
+
+.page-button:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
